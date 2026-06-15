@@ -1,31 +1,22 @@
 # Custom domain setup — hostcert.co.uk
 
-**Status:** Domain available (not purchased yet). Buy at Nominet registrar (e.g. Namecheap, 123-reg, Google Domains).
+**Status:** Domain purchased (1 year, ~£8.39). DNS → GitHub Pages in progress.
 
-## After purchase
+## DNS records (GoDaddy → GitHub Pages)
 
-1. In GitHub repo **Settings → Pages → Custom domain**, enter `hostcert.co.uk`
-2. Add file `CNAME` to repo root containing only:
-   ```
-   hostcert.co.uk
-   ```
-3. DNS at your registrar:
+In **DNS Management** for `hostcert.co.uk`, add or update:
 
-   **Option A — apex domain (hostcert.co.uk)**
-   ```
-   A    @    185.199.108.153
-   A    @    185.199.109.153
-   A    @    185.199.110.153
-   A    @    185.199.111.153
-   ```
+| Type | Name | Value | TTL |
+| --- | --- | --- | --- |
+| A | @ | 185.199.108.153 | 600 (or default) |
+| A | @ | 185.199.109.153 | 600 |
+| A | @ | 185.199.110.153 | 600 |
+| A | @ | 185.199.111.153 | 600 |
+| CNAME | www | gemmabailey03.github.io | 600 |
 
-   **Option B — www redirect**
-   ```
-   CNAME   www   gemmabailey03.github.io
-   ```
+Remove any conflicting `@` A records pointing at GoDaddy parking.
 
-4. Enable **Enforce HTTPS** in GitHub Pages settings (may take up to 24h)
-5. Update form redirect URLs in `onboarding.html` to `https://hostcert.co.uk/thank-you.html`
+GitHub repo already has `CNAME` file and custom domain set to `hostcert.co.uk`.
 
 ## Email forwarding
 
