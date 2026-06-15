@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HostCert — Holiday let certificate tracker for UK hosts</title>
+  <meta name="description" content="Track gas safety, EICR, fire risk assessments and platform certificates for your UK short-term lets. Expiry reminders from £9/month.">
+  <meta property="og:title" content="HostCert — Never miss a holiday let certificate deadline">
+  <meta property="og:description" content="Certificate expiry tracker built for self-managing UK Airbnb and short-term let hosts.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%230d6e6e' width='100' height='100' rx='20'/><text x='50' y='62' font-size='44' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>HC</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container inner">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">HC</span>
+        HostCert
+      </a>
+      <nav class="nav">
+        <a class="hide-mobile" href="#how-it-works">How it works</a>
+        <a class="hide-mobile" href="#pricing">Pricing</a>
+        <a class="hide-mobile" href="#faq">FAQ</a>
+        <a class="btn btn-primary" data-stripe-link href="checkout.html">Start free trial</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Built for UK self-managing hosts</span>
+          <h1>Never miss a holiday let certificate deadline again.</h1>
+          <p class="lead">Track gas safety, EICR, fire risk assessments and platform uploads across your properties — with reminders before anything expires.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" data-stripe-link href="checkout.html">Start 14-day free trial</a>
+            <a class="btn btn-secondary btn-lg" href="#how-it-works">See how it works</a>
+          </div>
+          <p class="hero-note"><data-price>£9</data-price>/month after trial · Cancel anytime · No contracts</p>
+        </div>
+        <aside class="hero-card" aria-label="Example compliance dashboard">
+          <h2>Your compliance at a glance</h2>
+          <ul class="cert-list">
+            <li class="cert-item"><span>Gas Safety (CP12)</span><span class="status status-ok">OK</span></li>
+            <li class="cert-item"><span>Electrical (EICR)</span><span class="status status-warn">14 days</span></li>
+            <li class="cert-item"><span>Fire risk assessment</span><span class="status status-ok">OK</span></li>
+            <li class="cert-item"><span>Platform fire cert upload</span><span class="status status-danger">Due</span></li>
+            <li class="cert-item"><span>Insurance renewal</span><span class="status status-warn">30 days</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="who">
+      <div class="container">
+        <div class="section-title">
+          <h2>Who HostCert is for</h2>
+          <p>Independent hosts running 1–5 short-term lets on Airbnb, Booking.com or Vrbo — not letting agencies with compliance teams.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Spreadsheets are fragile</h3>
+            <p>One extra property means more dates, more documents, more risk. A missed renewal can mean fines or platform problems.</p>
+          </article>
+          <article class="card">
+            <h3>Rules are tightening</h3>
+            <p>Fire safety documentation and platform certification requirements have stepped up. Hosts need records inspection-ready.</p>
+          </article>
+          <article class="card">
+            <h3>You need reminders, not jargon</h3>
+            <p>HostCert tracks expiry dates and nudges you at 30, 14 and 7 days — without selling you legal advice you don't need.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <div class="container">
+        <div class="section-title">
+          <h2>How it works</h2>
+          <p>Set up in minutes. We handle the reminders so you can focus on guests.</p>
+        </div>
+        <div class="steps">
+          <article class="step">
+            <h3>Subscribe & onboard</h3>
+            <p>Start your trial, then tell us your properties and certificate expiry dates.</p>
+          </article>
+          <article class="step">
+            <h3>Get your dashboard</h3>
+            <p>See every certificate across all properties in one place — traffic-light status included.</p>
+          </article>
+          <article class="step">
+            <h3>Receive reminders</h3>
+            <p>Email alerts before renewals are due so nothing slips through.</p>
+          </article>
+          <article class="step">
+            <h3>Export when asked</h3>
+            <p>Generate a simple compliance summary PDF for insurers, platforms or your own records.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="container">
+        <div class="section-title">
+          <h2>Simple pricing</h2>
+          <p>One plan. Everything included. Priced for solo hosts, not enterprise portfolios.</p>
+        </div>
+        <div class="pricing-box">
+          <p><strong>HostCert Starter</strong></p>
+          <p class="price"><data-price>£9</data-price> <span>/ month</span></p>
+          <p style="color: var(--muted); margin: 0;">14-day free trial · Cancel anytime</p>
+          <ul class="pricing-features">
+            <li>Up to 5 properties</li>
+            <li>Certificate expiry dashboard</li>
+            <li>Alerts at 30, 14 and 7 days</li>
+            <li>Guest info pack template (PDF)</li>
+            <li>Inspection-ready compliance export</li>
+            <li>Email support</li>
+          </ul>
+          <a class="btn btn-primary btn-lg" data-stripe-link href="checkout.html" style="width: 100%;">Start free trial</a>
+        </div>
+        <div class="disclaimer">
+          <strong>Important:</strong> HostCert is a record-keeping and reminder tool. It does not provide legal, fire safety or gas engineering advice. You remain responsible for meeting all legal and platform requirements for your properties.
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container faq" style="max-width: 720px; margin: 0 auto;">
+        <div class="section-title">
+          <h2>Frequently asked questions</h2>
+        </div>
+        <details>
+          <summary>What certificates can I track?</summary>
+          <p>Gas safety (CP12), EICR, EPC, fire risk assessment, insurance, legionella checks, platform fire-safety uploads, and other dates you add manually.</p>
+        </details>
+        <details>
+          <summary>Is this for long-term landlords?</summary>
+          <p>HostCert is designed for short-term and holiday let hosts. Long-term BTL landlords may prefer broader landlord suites — we're focused on the self-managing STL host.</p>
+        </details>
+        <details>
+          <summary>Do you integrate with Airbnb or Booking.com?</summary>
+          <p>Not in v1. You enter dates once; we remind you before renewals and help you keep an inspection-ready record.</p>
+        </details>
+        <details>
+          <summary>Can I cancel?</summary>
+          <p>Yes. Cancel anytime from your Stripe customer portal or by emailing <a data-support-email href="mailto:support@hostcert.co.uk">support@hostcert.co.uk</a>.</p>
+        </details>
+        <details>
+          <summary>What happens after I pay?</summary>
+          <p>You'll complete a short onboarding form with property and certificate details. We set up your dashboard within 24 hours and send your welcome email.</p>
+        </details>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta-band">
+          <h2>Stop guessing what's due next.</h2>
+          <p>Join hosts who want compliance organised — without another spreadsheet.</p>
+          <a class="btn btn-primary btn-lg" data-stripe-link href="checkout.html">Start 14-day free trial</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>HostCert</strong><br>
+        Certificate tracker for UK holiday let hosts
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout — HostCert</title>
+  <meta name="description" content="Start your HostCert free trial — certificate tracker for UK holiday let hosts.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container inner">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">HC</span>
+        HostCert
+      </a>
+    </div>
+  </header>
+
+  <main class="form-page">
+    <div class="container">
+      <div class="form-card">
+        <h1>Start your free trial</h1>
+        <p style="color: var(--muted); margin-bottom: 1.5rem;">
+          <strong>HostCert Starter</strong> — <data-price>£9</data-price>/month after 14 days. Track up to 5 properties. Cancel anytime.
+        </p>
+
+        <div id="stripe-ready" hidden>
+          <p>You'll be taken to secure checkout powered by Stripe.</p>
+          <a class="btn btn-primary btn-lg" data-stripe-link href="#" style="width: 100%; margin-top: 1rem;">Continue to secure checkout</a>
+        </div>
+
+        <div id="stripe-pending">
+          <p><strong>Checkout is being activated.</strong> While we finish payment setup, start your trial by completing onboarding — we'll invoice after your 14-day trial if you stay.</p>
+          <a class="btn btn-primary btn-lg" href="onboarding.html" style="width: 100%; margin: 1rem 0;">Complete onboarding →</a>
+          <p class="form-hint">Questions? Email <a data-support-email href="mailto:support@hostcert.co.uk">support@hostcert.co.uk</a></p>
+        </div>
+
+        <ul class="pricing-features" style="margin-top: 2rem;">
+          <li>14-day free trial</li>
+          <li>Dashboard set up within 24 hours</li>
+          <li>Secure payment via Stripe when live</li>
+          <li>Full refund within 14 days if not satisfied</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong>HostCert</strong></div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    (function () {
+      var link = (window.HOSTCERT_CONFIG || {}).stripePaymentLink;
+      if (link && link !== "STRIPE_PAYMENT_LINK_PLACEHOLDER") {
+        document.getElementById("stripe-ready").hidden = false;
+        document.getElementById("stripe-pending").hidden = true;
+      }
+    })();
+  </script>
+</body>
+</html>

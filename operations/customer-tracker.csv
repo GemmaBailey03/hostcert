@@ -1,0 +1,2 @@
+customer_id,date_signed_up,name,email,property_count,stripe_customer_id,stripe_subscription_id,onboarding_received,dashboard_url,status,mrr_gbp,notes
+HC-001,,,,,,,no,,trial,0,

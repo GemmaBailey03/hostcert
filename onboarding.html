@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onboarding — HostCert</title>
+  <meta name="description" content="Set up your HostCert compliance dashboard.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container inner">
+      <a class="logo" href="index.html">
+        <span class="logo-mark">HC</span>
+        HostCert
+      </a>
+    </div>
+  </header>
+
+  <main class="form-page">
+    <div class="container">
+      <div class="form-card">
+        <h1>Set up your dashboard</h1>
+        <p style="color: var(--muted); margin-bottom: 1.5rem;">Tell us about your properties and certificates. We'll have your dashboard ready within 24 hours.</p>
+
+        <form action="https://formsubmit.co/support@hostcert.co.uk" method="POST">
+          <input type="hidden" name="_subject" value="HostCert onboarding — new customer">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="https://gemmabailey03.github.io/hostcert/thank-you.html" id="form-next">
+
+          <div class="form-group">
+            <label for="name">Full name *</label>
+            <input id="name" name="name" type="text" required autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required autocomplete="email">
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+
+          <div class="form-group">
+            <label for="properties">How many properties do you manage? *</label>
+            <select id="properties" name="property_count" required>
+              <option value="">Select…</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="regions">Where are your properties? *</label>
+            <select id="regions" name="regions" required>
+              <option value="">Select…</option>
+              <option value="England">England</option>
+              <option value="Scotland">Scotland</option>
+              <option value="Wales">Wales</option>
+              <option value="Mixed">Mixed (multiple nations)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="platforms">Platforms you use</label>
+            <input id="platforms" name="platforms" type="text" placeholder="e.g. Airbnb, Booking.com, direct bookings">
+          </div>
+
+          <div class="form-group">
+            <label for="certificates">Certificate expiry dates *</label>
+            <textarea id="certificates" name="certificate_dates" required placeholder="For each property, list:&#10;&#10;Property 1 (address or nickname):&#10;- Gas safety (CP12): DD/MM/YYYY&#10;- EICR: DD/MM/YYYY&#10;- Fire risk assessment: DD/MM/YYYY&#10;- Insurance: DD/MM/YYYY&#10;- Other: …"></textarea>
+            <p class="form-hint">Approximate dates are fine — you can refine them later.</p>
+          </div>
+
+          <div class="form-group">
+            <label for="notes">Anything else we should know?</label>
+            <textarea id="notes" name="notes" placeholder="Optional"></textarea>
+          </div>
+
+          <div class="form-group checkbox-row">
+            <input id="terms" name="terms_accepted" type="checkbox" value="yes" required>
+            <label for="terms">I agree to the <a href="terms.html" target="_blank">Terms of Service</a> and <a href="privacy.html" target="_blank">Privacy Policy</a>. I understand HostCert is a reminder tool, not legal advice. *</label>
+          </div>
+
+          <button class="btn btn-primary btn-lg" type="submit" style="width: 100%;">Submit onboarding</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <a href="contact.html">Need help?</a> · <a data-support-email href="mailto:support@hostcert.co.uk">support@hostcert.co.uk</a>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

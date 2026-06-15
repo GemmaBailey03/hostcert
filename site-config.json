@@ -1,0 +1,11 @@
+{
+  "brand": "HostCert",
+  "tagline": "Certificate tracker for UK holiday let hosts",
+  "priceGbp": 9,
+  "currency": "GBP",
+  "supportEmail": "support@hostcert.co.uk",
+  "stripePaymentLink": "STRIPE_PAYMENT_LINK_PLACEHOLDER",
+  "onboardingFormAction": "https://formsubmit.co/support@hostcert.co.uk",
+  "trialDays": 14,
+  "maxProperties": 5
+}
