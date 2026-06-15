@@ -104,6 +104,14 @@ a {
   color: var(--brand);
 }
 
+.nav a.btn-primary {
+  color: white;
+}
+
+.nav a.btn-primary:hover {
+  color: white;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
