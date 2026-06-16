@@ -3,7 +3,7 @@ window.HOSTCERT_CONFIG = {
   tagline: "Certificate tracker for UK holiday let hosts",
   priceGbp: 9,
   supportEmail: "support@hostcert.co.uk",
-  stripePaymentLink: "STRIPE_PAYMENT_LINK_PLACEHOLDER",
+  stripePaymentLink: "https://buy.stripe.com/9B64gy7ZK4PE0bec7LdjO0e",
   trialDays: 14,
   maxProperties: 5
 };
