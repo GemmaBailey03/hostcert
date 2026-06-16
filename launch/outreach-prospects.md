@@ -20,7 +20,7 @@ I noticed you host [X] in [area]. I'm testing a small tool for self-managing UK 
 
 HostCert sends expiry reminders and keeps an inspection-ready summary — £9/month after a 14-day trial.
 
-If compliance admin is a pain point, I'd love your honest feedback: https://gemmabailey03.github.io/hostcert/
+If compliance admin is a pain point, I'd love your honest feedback: https://hostcert.co.uk/
 
 No pressure — looking for 3–5 early hosts.
 
@@ -44,8 +44,19 @@ No pressure — looking for 3–5 early hosts.
 1. UK Airbnb Hosts (Facebook)
 2. Airbnb Community Centre — UK hosting forum
 3. r/AirbnbHosts
-4. Short Term Rental Association member forums (if accessible)
-5. Local host meetup groups (Eventbrite / Meetup)
+4. r/AirBnBHostsUK (if active)
+5. Short Term Rental Association member forums (if accessible)
+6. Local host meetup groups (Eventbrite / Meetup)
+
+## Pre-Stripe marketing (started 2026-06-15)
+
+- [x] Response bank: `reddit-response-bank.md`
+- [x] SEO draft: `content/01-uk-stl-certificates-checklist-2026.md`
+- [ ] First FB group post (Week 1 — mod rules check) — **ready in day-1-actions.md**
+- [ ] 15 direct outreaches (Mon–Fri cadence) — **3 today**
+- [ ] Reddit comments (2–3/week, see response bank)
+
+**Note:** Checkout sends to onboarding until Stripe live — safe to drive traffic now.
 
 ## Do not
 
