@@ -37,7 +37,7 @@ In Stripe Dashboard → **Product catalogue** → **Add product**
 
 - Product: HostCert Starter
 - **Free trial:** 14 days
-- After payment: redirect to `http://hostcert.co.uk/onboarding.html` until GitHub issues HTTPS cert (then switch to `https://`)
+- After payment: redirect to `https://hostcert.co.uk/onboarding.html`
 - Collect customer email: **Yes**
 - Enable tax if your account requires it (UK VAT — check with accountant; many micro-SaaS under threshold)
 
