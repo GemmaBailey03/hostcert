@@ -2,6 +2,41 @@
 
 Target: 20 self-managing UK short-term let hosts in first 48 hours.
 
+## Channel priority (updated 23 Jun 2026)
+
+**Do first (low friction, no group approval):**
+
+| Channel | Time | Cadence |
+| --- | --- | --- |
+| **Reddit** | ~10 min/comment | 3 helpful comments/week — see `reddit-response-bank.md` |
+| **Direct messages** | ~2 min each | 3/day Mon–Fri (15/week) — template below |
+
+**Do in background (async, manual from phone only):**
+
+| Channel | Time | Cadence |
+| --- | --- | --- |
+| **Facebook groups** | ~5 min to apply | Join 2–3 groups; wait for admin approval; **no Browser Hub / no automation** |
+
+**Facebook rules:**
+
+- Read **Group rules** before every post. Many ban links and self-promotion (e.g. Airbnb Host Community UK — rule 3).
+- If promos banned: comment helpfully on others' threads only, or post a **question with no link**.
+- If join is pending: log below and revisit when approved — do not chase with automation.
+
+**Do not:** Rapid open/close browser sessions on Facebook (account risk). One normal phone/browser session when needed.
+
+---
+
+## Facebook — application queue
+
+| Group | Applied | Approved | Rules note | Next action |
+| --- | --- | --- | --- | --- |
+| UK Airbnb & Holiday Let Hosts | | | Check rules before post | Apply from phone |
+| Airbnb Hosts UK | | | Private — may need approval | Apply from phone |
+| Airbnb Host Community UK | | | **No promos/spam/links** — comments only | Skip promo posts |
+
+---
+
 ## Where to find prospects
 
 | Channel | Action |
@@ -47,6 +82,18 @@ No pressure — looking for 3–5 early hosts.
 4. r/AirBnBHostsUK (if active)
 5. Short Term Rental Association member forums (if accessible)
 6. Local host meetup groups (Eventbrite / Meetup)
+
+## Agent execution log
+
+| Date | Action | Status |
+| --- | --- | --- |
+| 2026-06-23 | SEO guide #2 published (`spreadsheet-vs-tracker-holiday-let-certs.html`) | Deployed |
+| 2026-06-23 | sitemap.xml + robots.txt + homepage JSON-LD | Deployed |
+| 2026-06-23 | FormSubmit activation test | Pending |
+| 2026-06-23 | Reddit comments | **Blocked — no Reddit account in browser profile** |
+| 2026-06-23 | Facebook promo posts | **Skipped — group rules + account safety** |
+
+---
 
 ## Pre-Stripe marketing (started 2026-06-15)
 

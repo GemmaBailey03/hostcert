@@ -34,4 +34,4 @@ Agent updates every Friday. Steve/WhatsApp summaries pull from here.
 | Community posts | 2 | 0 |
 | Ad spend | £0 | £0 |
 | Phase | 1 | 1 |
-| Notes | SEO guide published; Stripe live; Gemma to post FB + 3 DMs today |
+| Notes | SEO guide published; Stripe live. **Channel pivot 23 Jun:** Reddit + DMs primary; FB = manual apply/wait (no automation). FB login saved but Browser Hub not used for FB. |
