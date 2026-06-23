@@ -89,7 +89,7 @@ No pressure — looking for 3–5 early hosts.
 | --- | --- | --- |
 | 2026-06-23 | SEO guide #2 published (`spreadsheet-vs-tracker-holiday-let-certs.html`) | Deployed |
 | 2026-06-23 | sitemap.xml + robots.txt + homepage JSON-LD | Deployed |
-| 2026-06-23 | FormSubmit activation test | Pending |
+| 2026-06-23 | FormSubmit activation test | Email sent — click activation link in Gmail (one-time) |
 | 2026-06-23 | Reddit comments | **Blocked — no Reddit account in browser profile** |
 | 2026-06-23 | Facebook promo posts | **Skipped — group rules + account safety** |
 
