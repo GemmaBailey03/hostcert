@@ -90,7 +90,10 @@ No pressure — looking for 3–5 early hosts.
 | 2026-06-23 | SEO guide #2 published (`spreadsheet-vs-tracker-holiday-let-certs.html`) | Deployed |
 | 2026-06-23 | sitemap.xml + robots.txt + homepage JSON-LD | Deployed |
 | 2026-06-23 | FormSubmit activation test | Email sent — click activation link in Gmail (one-time) |
-| 2026-06-23 | Reddit comments | **Blocked — no Reddit account in browser profile** |
+| 2026-06-23 | Reddit login (Browser Hub) | Saved — visible Chrome session completed |
+| 2026-06-23 | Reddit comment r/AirBnBHosts fire safety thread | Failed (submit button) — **no browser retries until batched fix** |
+| 2026-06-23 | SEO guide #4 Scotland licensing | Live — Wed batch |
+| 2026-06-23 | Automation schedule | Mon/Wed 10:30 + WhatsApp success/failure |
 | 2026-06-23 | Facebook promo posts | **Skipped — group rules + account safety** |
 
 ---

@@ -31,7 +31,7 @@ Agent updates every Friday. Steve/WhatsApp summaries pull from here.
 | Paying | 1 | 0 (test — refund/cancel) |
 | MRR | £9 | £0 |
 | Outreach sent | 15 | 0 |
-| Community posts | 2 | 0 (SEO guides live; social blocked on account login) |
+| Community posts | 2 | 0 social; 4 SEO guides live |
 | Ad spend | £0 | £0 |
 | Phase | 1 | 1 |
-| Notes | SEO guide #2 + sitemap + JSON-LD deployed 23 Jun. FormSubmit activation email sent. Reddit outreach blocked — no logged-in Reddit account. FB deferred (rules + approval). Agent owns organic SEO; social needs one-time account setup. |
+| Notes | Automation Mon/Wed 10:30 + WhatsApp success/failure. Guide #4 Scotland licensing published 23 Jun. |

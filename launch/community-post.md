@@ -22,7 +22,7 @@ What do you use? Still spreadsheets + calendar reminders, or something else?
 
 I've been building a simple tracker for myself (expiry dashboard + email nudges at 30/14/7 days) and would love feedback from anyone who manages their own compliance — especially if you have 2–5 properties.
 
-Not selling hard — happy to share what I've learned about the 2025 platform cert requirements if useful. If anyone wants to try the beta it's at http://hostcert.co.uk (£9/mo after 14-day trial).
+Not selling hard — happy to share what I've learned about the 2025 platform cert requirements if useful. If anyone wants to try the beta it's at https://hostcert.co.uk (£9/mo after 14-day trial).
 
 What's your system?
 
