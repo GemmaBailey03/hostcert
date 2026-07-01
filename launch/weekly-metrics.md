@@ -31,7 +31,7 @@ Agent updates every Friday. Steve/WhatsApp summaries pull from here.
 | Paying | 1 | 0 (test — refund/cancel) |
 | MRR | £9 | £0 |
 | Outreach sent | 15 | 0 |
-| Community posts | 2 | 0 social; 4 SEO guides live |
+| Community posts | 2 | 0 social; 5 SEO guides live |
 | Ad spend | £0 | £0 |
 | Phase | 1 | 1 |
-| Notes | Automation Mon/Wed 10:30 + WhatsApp success/failure. Guide #4 Scotland licensing published 23 Jun. |
+| Notes | Automation Mon/Wed 10:30 + WhatsApp success/failure. Guide #5 England STL registration published 1 Jul 2026. |

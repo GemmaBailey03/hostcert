@@ -29,8 +29,8 @@
 | 2 | spreadsheet-vs-tracker-holiday-let-certs | Spreadsheet vs tracker | Done |
 | 3 | airbnb-platform-fire-safety-uploads-uk | Platform fire safety uploads | Done |
 | 4 | scotland-short-term-let-licensing-basics | Scotland STL licensing overview | Done |
-| 5 | england-stl-registration-2026 | England registration scheme prep | Next |
-| 6 | holiday-let-insurance-renewal-checklist | Insurance + cert alignment | Queue |
+| 5 | england-stl-registration-2026 | England registration scheme prep | Done |
+| 6 | holiday-let-insurance-renewal-checklist | Insurance + cert alignment | Next |
 
 **Publish checklist:**
 

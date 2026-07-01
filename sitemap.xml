@@ -31,6 +31,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://hostcert.co.uk/guides/england-stl-registration-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://hostcert.co.uk/contact.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
