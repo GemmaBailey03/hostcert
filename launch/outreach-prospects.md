@@ -97,7 +97,7 @@ No pressure — looking for 3–5 early hosts.
 | 2026-06-23 | Facebook promo posts | **Skipped — group rules + account safety** |
 | 2026-07-01 | SEO guide #5 England STL registration (`england-stl-registration-2026.html`) | Deployed |
 | 2026-07-01 | Reddit comment | Skipped — prior submit failure; no browser retry until batched fix |
-| 2026-07-01 | Site check https://hostcert.co.uk | 200 OK (pre-deploy) |
+| 2026-07-01 | Site check https://hostcert.co.uk | 200 OK; guide live after Pages deploy |
 
 ---
 
